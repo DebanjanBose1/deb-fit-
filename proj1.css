@@ -1,0 +1,115 @@
+* {
+    color: aliceblue;
+}
+body{
+    background-image: url('../img/sports-g743856ecb_1920.jpg');
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Balsamiq Sans', cursive;
+    font-style: italic;
+} 
+.left {
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+}
+
+.left img {
+    width: 80px;
+    filter: invert(100%);
+
+}
+
+.mid {
+    /* border: 2px solid green; */
+    display: block;
+    width: 55%;
+    margin: 23px auto;
+
+}
+
+.right {
+    /* border: 2px solid blue; */
+    position: absolute;
+    right: 34px;
+    top: 35px;
+    display: inline-block;
+}
+
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 27px;
+    box-sizing: border-box;
+}
+
+.navbar li a {
+    text-decoration: none;
+    padding: 34px 30px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: rgb(123, 127, 127);
+}
+
+.name {
+    text-align: center;
+    font-family: 'Balsamiq Sans', cursive;
+    font-style: bold;
+    font-style: italic;
+    font-size: 15px;
+    line-height: 19px;
+}
+
+.btn {
+    color: rgb(255, 255, 255);
+    background-color: black;
+    margin: 0px 9px;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Balsamiq Sans', cursive;
+    font-style: italic;
+}
+
+.btn:hover {
+    background-color: rgb(139, 147, 144);
+}
+
+.container {
+    border: 2px solid rgb(255, 255, 255);
+    margin: 106px 80px;
+    padding: 50px;
+    border-radius: 28px;
+    width: 33%;
+}
+.form-group input{
+    margin: 10px auto;
+    font-size: 20px;
+    width: 312px;
+    height: 20px;
+    text-align: center;
+    padding: 6px;
+    font-family: 'Balsamiq Sans', cursive;
+    display: block;
+    border-radius: 50px;
+}
+h1{
+    text-align: center;
+}
+.container .btn{
+    margin: auto;
+    display: block;
+    width: 327px;
+    border-radius: 50px;
+}
